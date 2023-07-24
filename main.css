@@ -3,20 +3,23 @@ body {
 }
 
 .product-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 50%;
   max-height: 50%;
-  flex-basis: 33.33333%;
-}
-
-.carrot-cake {
-  border: 2px solid black;
-  text-align: center;
+  /* flex-basis: 33.33333%; */
 }
 
 .product-availability {
   width: 100%;
   background-color: darkgray;
   color: yellow;
+}
+
+.product-description {
+  font-size: 21px;
+  text-align: center;
 }
 
 header {
@@ -27,5 +30,10 @@ header {
 #app {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: center; */
+  /* flex: 0 0 33.333333%; */
+}
+
+.product-display {
+  flex: 0 0 33.333333%;
 }
